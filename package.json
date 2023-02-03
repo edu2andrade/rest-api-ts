@@ -1,10 +1,10 @@
 {
   "name": "rest-api-ts",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple working example of a rest api with nodejs, express and typescript",
   "main": "index.js",
   "scripts": {
-    "start": "node --watch app.ts",
+    "start": "node --watch dist/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

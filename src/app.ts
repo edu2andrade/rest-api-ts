@@ -1,4 +1,5 @@
 import express from 'express'
+import todosRoutes from './routes/todos'
 
 const app = express()
 
@@ -21,6 +22,8 @@ app.use((req, res, next) => {
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization')
   next()
 })
+
+app.use(todosRoutes)
 
 const port = 8080
 
